@@ -30,6 +30,20 @@ section{
     height: 100vh;
 }
 
+section:nth-child(1) {
+    background-color: #a10b24;
+}
+section:nth-child(2) {
+    background-color: #330988;
+}
+section:nth-child(3) {
+    background-color: #078080;
+}
+section:nth-child(4) {
+    background-color: #b1c21c;
+}
+
+
 @media (min-width: 640px){
     .container{
         max-width: 640px;
