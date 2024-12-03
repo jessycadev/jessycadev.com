@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
 body{
     background: linear-gradient(to bottom, #12071f, #2f204e);
     color: white;
@@ -28,9 +33,12 @@ a{
 
 section{
     height: 100vh;
+    scroll-snap-align: center;
 }
 
-section:nth-child(1) {
+
+/* usado para ver as cores do scrol uma boa forma de debugar */
+/* section:nth-child(1) {
     background-color: #a10b24;
 }
 section:nth-child(2) {
@@ -41,7 +49,7 @@ section:nth-child(3) {
 }
 section:nth-child(4) {
     background-color: #b1c21c;
-}
+} */
 
 
 @media (min-width: 640px){
