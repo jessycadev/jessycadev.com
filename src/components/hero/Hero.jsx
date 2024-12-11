@@ -2,14 +2,15 @@ import "./hero.css";
 import Speench from "./Speench";
 
 const Hero = () => {
-    return <div className="hero">
+    return (
+    <div className="hero">
         <div className="hSection left">
             {/* TITLE */}
             <h1 className="hTitle">Hey There,<br/><span>I'm Jessyca!</span></h1>
             {/* AWARDS */}
             <div className="awards">
                 <h2>Top Full Stack Developer</h2>
-                <p> More than five years of experience</p>
+                <p> More than five years of experience More than five years of experience.</p>
             </div>
             <div className="awardsList">
                 <img src="/award1.png" alt=""/>
@@ -52,6 +53,9 @@ const Hero = () => {
                 <a href="/">
                     <img src="/youtube.png"></img>
                 </a>
+                <div className="followTextContainer">
+                    <div className="FollowText">Follow me</div>
+                </div>
             </div>
             {/* BUBLLE */}
             <Speench/>
@@ -98,8 +102,14 @@ const Hero = () => {
                 </div>
             </a>
         </div>
+        <div className="bg">
+            {/* 3d */}
+            <div className="hImg">
+                <img src="/hero1.gif" alt=""/>
+            </div>
+        </div>
     </div>
-    
-}
+    );
+};
 
 export default Hero
