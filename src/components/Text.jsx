@@ -42,7 +42,6 @@ const listVariantes = {
     },
 };
 
-
 const Text = () => {
     return (
         <section style={{display:"flex", alignItems:"center", justifyContent:"center"}}>

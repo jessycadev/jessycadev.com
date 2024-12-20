@@ -7,7 +7,7 @@ import Text from "./components/Text";
 const App = () => {
   return (
     <div className="container">
-      {/* <section id="#home">
+      <section id="#home">
         <Hero/>
       </section>
 
@@ -21,9 +21,9 @@ const App = () => {
 
       <section className="#contact">
         <Contact/>
-      </section> */}
+      </section>
 
-      <Text/>
+      {/* <Text/> */}
     </div>
   )
 }

@@ -1,8 +1,13 @@
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'motion/react'
 
 const Speench = () => {
     return (
-        <div className="bubbleContainer">
+        <motion.div 
+            className="bubbleContainer"
+            animate={{ opacity:[0,1] }}
+            transition={{ duration: 1 }}
+            >
             <div className="bubble">
             <TypeAnimation
                 sequence={[
@@ -20,7 +25,7 @@ const Speench = () => {
             />
             </div>
             <img src="/man.png" alt=""/>
-        </div>
+        </motion.div>
     )
 }
 
