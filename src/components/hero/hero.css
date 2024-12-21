@@ -121,6 +121,7 @@
 .bubbleContainer{
     width: 50%;
     display: flex;
+    align-items: end;
     gap: 8px;
     justify-content: space-between;
 
@@ -146,17 +147,45 @@
 }
 
 .certificate {
-    width: 50%;
-    /* border: 1px solid wheat; */
-    align-self: flex-end;
-}
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ddd;
+  }
 
 .certificate img {
-    width: 100px;
-    height: 100px;
-    margin-left: 100px;
+    width: 70px;
+    height: 70px;
 }
 
-.certificate p {
-    text-align: center;
-}
+.contactLink {
+    margin-bottom: 50px;
+  }
+  
+  .contactButton {
+    position: relative;
+  }
+  
+  .circleText {
+    letter-spacing: 3px;
+    font-size: 20px;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
