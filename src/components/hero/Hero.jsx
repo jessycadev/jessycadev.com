@@ -117,8 +117,8 @@ const Hero = () => {
 
             <motion.div animate={{ opaticty: [0,1] }} transition={{ duration: 1 }} className="certificate">
                 <img src="/certificate.png" alt=""></img>
-                <p>ANALISE E DESENVOLVIMENTO DE SISTEMA</p>
-                <p>ENGENHARIA DA COMPUTAÇÃO</p>
+                <p>ANALISTA DE SISTEMA</p>
+                <p>ENGENHEIRA DA COMPUTAÇÃO</p>
             </motion.div>
 
             {/* CONTACT BUTTOM */}

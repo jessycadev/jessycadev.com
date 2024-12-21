@@ -144,3 +144,19 @@
     background-color: #dd4c62;
     align-self: flex-end;
 }
+
+.certificate {
+    width: 50%;
+    /* border: 1px solid wheat; */
+    align-self: flex-end;
+}
+
+.certificate img {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.certificate p {
+    text-align: center;
+}
