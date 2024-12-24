@@ -151,8 +151,8 @@ const Hero = () => {
                             ease: "linear",
                         }}
                     >
-                        <svg viewBox="0 0 200 200" width="150" height="150">
-                            <circle cx="100" cy="100" r="90" fill="pink" />
+                        <svg viewBox="0 0 200 200" width="100" height="100">
+                            <circle cx="100" cy="100" r="90" fill="white" />
                             <path
                                 id="innerCirclePath"
                                 fill="none"
@@ -171,8 +171,8 @@ const Hero = () => {
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
-                                width="50"
-                                height="50"
+                                width="30"
+                                height="30"
                                 fill="none"
                                 stroke="black"
                                 strokeWidth="2"
