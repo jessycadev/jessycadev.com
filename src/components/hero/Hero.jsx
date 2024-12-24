@@ -52,8 +52,8 @@ const Hero = () => {
                 {/* AWARDS */}
 
                 <motion.div variants={awardVariants} initial="initial" animate="animate" className="awards">
-                    <motion.h2 variants={awardVariants}>Top Full Stack Developer</motion.h2>
-                    <motion.p variants={awardVariants}> More than five years of experience More than five years of experience.</motion.p>
+                    <motion.h1 variants={awardVariants}>FullStack Developer</motion.h1>
+                    <motion.p variants={awardVariants}> Programmer with more than three years of Full Stack experience in building and maintaining applications, using various back-end and front-end technologies.</motion.p>
                 </motion.div>
 
                 <motion.div variants={awardVariants} initial="initial" animate="animate" className="awardsList">
@@ -117,7 +117,7 @@ const Hero = () => {
 
                 {/* CERTIFICATE */}
 
-                <motion.div
+                {/* <motion.div
                     animate={{ opaticty: [0, 1] }}
                     transition={{ duration: 1 }}
                     className="certificate"
@@ -128,7 +128,7 @@ const Hero = () => {
                     PROFESSIONAL
                     <br />
                     UI DESIGNER
-                </motion.div>
+                </motion.div> */}
 
                 {/* CONTACT BUTTON */}
                 <motion.a
@@ -188,7 +188,7 @@ const Hero = () => {
             <div className="bg">
                 {/* 3d */}
                 <div className="hImg">
-                    <img src="/hero.gif" alt="" />
+                    <img src="/hero.png" alt="" />
                 </div> 
             </div>
         </div>

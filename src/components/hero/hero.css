@@ -15,7 +15,7 @@
 
 .hImg {
     position: absolute;
-    top: 0;
+    top: 300px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -27,7 +27,7 @@
 
 .hImg img {
     width: 100%;
-    height: 100%;
+    height: 50%;
     object-fit: cover;
 }
 
@@ -55,14 +55,19 @@
 }
 
 .awards {
-    width: 30%;
-
+    width: 50%;
+    text-align: justify;
 }
 
 .awards p {
     font-size: 14px;
     color: #ddd;
     margin: 16px 0px;
+
+}
+
+.awards h1{
+    font-size: 40px;
 }
 
 .awardsList {
@@ -92,7 +97,7 @@
     flex-direction: column;
     gap: 12px;
     padding: 16px;
-    background-color: #2f204e;
+    background-color: #1C1C1C;
     border-bottom-right-radius: 10px;
 }
 
@@ -146,7 +151,7 @@
     align-self: flex-end;
 }
 
-.certificate {
+/* .certificate {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -156,12 +161,13 @@
     line-height: 24px;
     font-weight: 300;
     color: #ddd;
+    align-items: end;
 }
 
 .certificate img {
     width: 70px;
     height: 70px;
-}
+} */
 
 .contactLink {
     margin-bottom: 50px;
