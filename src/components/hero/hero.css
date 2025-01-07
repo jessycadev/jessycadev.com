@@ -46,7 +46,7 @@
 .hTitle {
     margin-top: 50px;
     font-size: 100px;
-    color: pink;
+    color: gray;
     z-index: 1;
 }
 
@@ -277,5 +277,11 @@
     .bubbleContainer,
     .certificate {
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg {
+        height: 60%;
     }
 }
