@@ -1,6 +1,9 @@
+import { Canvas } from '@react-three/fiber'
 import "./hero.css";
 import Speench from "./Speench";
 import { motion } from "motion/react";
+import  Shape  from "./Shape";
+import { Suspense } from "react";
 
 const awardVariants = {
     initial: {
@@ -187,9 +190,14 @@ const Hero = () => {
 
             <div className="bg">
                 {/* 3d */}
+                <Canvas>
+                    <Suspense fallback="loading...">
+                        <Shape />
+                    </Suspense>
+                </Canvas>
                 <div className="hImg">
                     <img src="/hero.png" alt="" />
-                </div> 
+                </div>
             </div>
         </div>
     );
